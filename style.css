@@ -1,0 +1,52 @@
+/* body css to use Arial as font-family and margin and padding to 0 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* css for header having background-color #333 and color #fff */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+/* zero margin for h1*/
+h1 {
+    margin: 0;
+}
+
+/* css for main having max-width 800px, margin 20px auto and padding 20px */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* css for footer having background-color #333 and color #fff */
+.car {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+/* css for car having display flex and margin-bottom 20px */
+.car img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+
+/* css for car info with flex:1 */
+.car-info {
+    flex: 1;
+}
+
+.car-info h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.car-info p {
+    margin: 10px 0;
+    font-size: 14px;
+}
